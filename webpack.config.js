@@ -7,8 +7,11 @@ module.exports = {
     },
     mode: 'development',
     output: {
-        path: path.resolve(__dirname, 'publick', 'javascript'),
+        path: path.resolve(__dirname, 'public', 'javascript'),
         filename: 'bundle.js'
+    },
+    resolve: {
+        extensions: ['.tsx', '.ts', '.js', '.json'],
     },
     module: {
         rules: [
