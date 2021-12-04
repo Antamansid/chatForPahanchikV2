@@ -3,11 +3,11 @@ const webpack = require('webpack');
 
 module.exports = {
     entry: {
-        main: path.resolve(__dirname, 'client', 'index.tsx'),
+        main: path.resolve(__dirname, 'clientSrc', 'index.tsx'),
     },
     mode: 'development',
     output: {
-        path: path.resolve(__dirname, 'public', 'javascript'),
+        path: path.resolve(__dirname, 'client', 'javascript'),
         filename: 'bundle.js'
     },
     resolve: {

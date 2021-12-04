@@ -10,23 +10,23 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./client/components/App/App.tsx":
-/*!***************************************!*\
-  !*** ./client/components/App/App.tsx ***!
-  \***************************************/
+/***/ "./clientSrc/components/App/App.tsx":
+/*!******************************************!*\
+  !*** ./clientSrc/components/App/App.tsx ***!
+  \******************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"App\": () => (/* binding */ App)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nfunction App() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", null, \"'start'\");\n}\n;\n\n//# sourceURL=webpack://chat-for-pahanchik-v2/./client/components/App/App.tsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"App\": () => (/* binding */ App)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nfunction App() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", null, \"'start'\");\n}\n;\n\n//# sourceURL=webpack://chat-for-pahanchik-v2/./clientSrc/components/App/App.tsx?");
 
 /***/ }),
 
-/***/ "./client/index.tsx":
-/*!**************************!*\
-  !*** ./client/index.tsx ***!
-  \**************************/
+/***/ "./clientSrc/index.tsx":
+/*!*****************************!*\
+  !*** ./clientSrc/index.tsx ***!
+  \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var _components_App_App__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/App/App */ \"./client/components/App/App.tsx\");\n\n\n\nreact_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_App_App__WEBPACK_IMPORTED_MODULE_2__.App, null), document.querySelector(\"#root\"));\n\n//# sourceURL=webpack://chat-for-pahanchik-v2/./client/index.tsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var _components_App_App__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/App/App */ \"./clientSrc/components/App/App.tsx\");\n\n\n\nreact_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_App_App__WEBPACK_IMPORTED_MODULE_2__.App, null), document.querySelector(\"#root\"));\n\n//# sourceURL=webpack://chat-for-pahanchik-v2/./clientSrc/index.tsx?");
 
 /***/ }),
 
@@ -180,7 +180,7 @@ eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ./cjs
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("./client/index.tsx");
+/******/ 	var __webpack_exports__ = __webpack_require__("./clientSrc/index.tsx");
 /******/ 	
 /******/ })()
 ;
